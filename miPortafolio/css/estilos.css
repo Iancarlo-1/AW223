@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* Margen */
+    margin: 0;
+    /* Especificamos los distintos tipos de letra que queremos */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Interlineado */
+    line-height: 1.6;
+    /* Color del body */
+    color: black;
+    /* Fondo */
+    background-color: #f5f5f5;
+
+}
+
+header{
+
+    text-align: center;
+    padding:50px 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+header h1{
+
+    margin: 0;
+    font-size:48px;
+
+}
+
+header p{
+
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration-style: 20px;
+
+}
+
+/* Navegacion */
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+/* Main */
+main{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(169, 168, 168);
+}
+
+section{
+    padding: 60px 40px;
+    border-bottom: 1 px solid #ddd;
+}
+
+section h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.seccion-inicio{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
