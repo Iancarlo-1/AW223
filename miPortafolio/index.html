@@ -105,33 +105,33 @@
 
         <!-- Seccion contacto -->
 
-        <section>
+        <section id="contacto">
 
             <h2>Contactame</h2>
             
             <form action="">
-                <div>
+                <div class="campo">
 
-                    <label for="">Nombre</label>
-                    <input type="text">
-
-                </div>
-                <div>
-
-                    <label for="">Correo</label>
-                    <input type="text">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                    
 
                 </div>
-                <div>
+                <div class="campo">
+
+                    <label for="email">Correo electronico</label>
+                    <input type="text" id="email" name="email" placeholder="ejemplo@corre.com">
+
+                </div>
+                <div class="campo">
 
                     <label for="">Mensaje</label>
-                    <textarea rows="5"></textarea>
+                    <textarea  id="mesnaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
 
                 </div>
-            </form>
 
-
-            
+                <button type="submit">Enviar mensaje</button>
+            </form>         
 
         </section>
 
