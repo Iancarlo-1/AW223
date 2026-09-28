@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./css/estilos.css">
+    
 </head>
 <body>
     <header>
           <!-- Aqui esta el encabezado -->
         <h1> Mi portafolio </h1>
-        <p> Bienvenido a mi sitio web personal</p>
+        <p id="mensaje-bienvenida"> Bienvenido a mi sitio web personal</p>
+        <button id="btn-cambiar-mensaje">Cambiar Mensaje</button>
     </header>
 
 
@@ -74,6 +76,10 @@
                     <li>MySQL</li>
 
                 </ul>
+                <div style="text-align: center; margin-top: 20px;">
+                <button id="btn-cambiar-color">Cambiar color</button>
+                <button id="btn-cambiar-fuente">Cambiar tipo de letra</button>
+        </div>
             </div>
         </section>
 
@@ -109,7 +115,7 @@
 
             <h2>Contactame</h2>
             
-            <form action="">
+            <form id="formulario-contacto" action="">
                 <div class="campo">
 
                     <label for="nombre">Nombre</label>
@@ -141,9 +147,7 @@
         <p> 2026 Mi portafolio web</p>
         <p> Practica de programacion web todos los derechos se reservan</p>
     </footer>
-
-
-
-
+    
+        <script src="./js/script.js"></script>
 </body>
 </html>
