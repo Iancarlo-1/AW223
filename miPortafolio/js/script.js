@@ -1,9 +1,5 @@
-// Esperar a que el HTML cargue completamente
 document.addEventListener("DOMContentLoaded", () => {
-
-    
-    // Cambiar el HTML desde JS
-    
+    // Cambiar mensaje
     const btnMensaje = document.getElementById("btn-cambiar-mensaje");
     const mensajeBienvenida = document.getElementById("mensaje-bienvenida");
 
@@ -13,14 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    
-    // Cambiar el CSS desde JS 
-    
+    // Cambiar color y tipografía de habilidades
     const btnColor = document.getElementById("btn-cambiar-color");
     const btnFuente = document.getElementById("btn-cambiar-fuente");
     const cajasHabilidades = document.querySelectorAll(".lista-habilidades li");
 
-    // Color de las cajas
     if (btnColor) {
         btnColor.addEventListener("click", () => {
             cajasHabilidades.forEach(box => {
@@ -30,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Tipografía de las cajas
     if (btnFuente) {
         btnFuente.addEventListener("click", () => {
             cajasHabilidades.forEach(box => {
@@ -39,8 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-
-    // Validación Formulario   
+    // Validación Formulario
     const formulario = document.getElementById("formulario-contacto");
 
     if (formulario) {
@@ -60,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            
             alert("Formulario enviado correctamente");
             formulario.reset(); 
         });
