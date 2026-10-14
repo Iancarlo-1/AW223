@@ -14,7 +14,7 @@
         <p>Formulario para Editar</p>
     </header>
 
-    <!-- Navegación corregida con rutas relativas a la misma carpeta -->
+    
     <nav class="nav-admin">
     <a href="admin.php" title="Volver a Administración"><i class="fa-solid fa-rotate-right fa-lg"></i></a>
     <a href="index.php" title="Volver al Portafolio"><i class="fa-solid fa-house fa-lg"></i></a>

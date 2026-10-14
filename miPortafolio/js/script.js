@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => {
     // Cambiar mensaje
     const btnMensaje = document.getElementById("btn-cambiar-mensaje");
     const mensajeBienvenida = document.getElementById("mensaje-bienvenida");
@@ -55,4 +55,4 @@ document.addEventListener("DOMContentLoaded", () => {
             formulario.reset(); 
         });
     }
-});
+}); */
