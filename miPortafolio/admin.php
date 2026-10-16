@@ -30,30 +30,31 @@
                             <th>Nombre</th>
                             <th>Correo</th>
                             <th>Mensaje</th>
+                            <!-- <th>Fecha</th> -->
                             <th>Opciones</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Ana</td>
-                            <td>ana@ejemplo.com</td>
-                            <td>Hola, me interesó tu portafolio</td>
-                            <td class="acciones">
-                                <a href="editar.php?id=1" title="Editar"><i class="fa-regular fa-pen-to-square"></i></a>
-                                <a href="#" title="Borrar"><i class="fa-regular fa-trash-can"></i></a>
+                        <?php
+                        require 'consulta_mensajes.php';
+                        $rsMensajes = consultaMensajes();
+
+                        while ($arrMensaje= mysqli_fetch_array ($rsMensajes)){
+
+                        
+                        echo "<tr>
+                            <td>".$arrMensaje['nombre']."</td>
+                            <td>".$arrMensaje['correo']."</td>
+                            <td>".$arrMensaje['mensaje']."</td>
+                            <td>".$arrMensaje['timeStaps']."</td>
+                            <td>
+                            <td class='acciones'>
+                                <a href='editar.php?id=1' title='Editar'><i class='fa-regular fa-pen-to-square'></i></a>
+                                <a href='#' title='Borrar'><i class='fa-regular fa-trash-can'></i></a>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>José</td>
-                            <td>jose@ejemplo.com</td>
-                            <td>Quisiera más información sobre tus proyectos</td>
-                            <td class="acciones">
-                                <a href="editar.php?id=2" title="Editar"><i class="fa-regular fa-pen-to-square"></i></a>
-                                <a href="#" title="Borrar"><i class="fa-regular fa-trash-can"></i></a>
-                            </td>
-                        </tr>
+                        </tr>";
+                        }
+                       ?>
                     </tbody>
                 </table>
             </div>

@@ -10,6 +10,7 @@
     <title>Portafolio</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -87,7 +88,7 @@
         <!-- Sección Contacto -->
         <section id="contacto">
             <h2>Contactame</h2>
-            <form id="formulario-contacto" action="guardar_mensaje" method="post">
+            <form id="formulario-contacto" action="guardar_mensaje.php" method="post">
                 <div class="campo">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="txtnombre" placeholder="Escribe tu nombre">
@@ -115,6 +116,6 @@
         <p>Práctica de programación web todos los derechos se reservan</p>
     </footer>
 
-    <script src="./js/script.js"></script>
+     <script src="./js/AlertInsert.js"></script> 
 </body>
 </html>

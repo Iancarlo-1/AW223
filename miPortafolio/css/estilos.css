@@ -249,10 +249,11 @@ footer {
     text-align: center;
     background-color: #222;
     color: white;
+    margin: auto;
 }
 
 footer p {
-    margin: 5px;
+    margin: 1px;
 }
 
 /* Responsive */
