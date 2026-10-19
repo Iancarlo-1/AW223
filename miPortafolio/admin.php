@@ -26,11 +26,11 @@
                 <table class="tabla-mensajes">
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            
                             <th>Nombre</th>
                             <th>Correo</th>
                             <th>Mensaje</th>
-                            <!-- <th>Fecha</th> -->
+                            <th>Fecha</th>
                             <th>Opciones</th>
                         </tr>
                     </thead>
@@ -47,7 +47,7 @@
                             <td>".$arrMensaje['correo']."</td>
                             <td>".$arrMensaje['mensaje']."</td>
                             <td>".$arrMensaje['timeStaps']."</td>
-                            <td>
+                            
                             <td class='acciones'>
                                 <a href='editar.php?id=1' title='Editar'><i class='fa-regular fa-pen-to-square'></i></a>
                                 <a href='#' title='Borrar'><i class='fa-regular fa-trash-can'></i></a>

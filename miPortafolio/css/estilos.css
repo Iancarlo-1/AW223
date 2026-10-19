@@ -219,12 +219,14 @@ form button {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    text-align: center;
 }
 
 .tabla-mensajes th, .tabla-mensajes td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #eee;
+    
 }
 
 .tabla-mensajes th {
@@ -359,3 +361,11 @@ footer p {
 .tabla-mensajes td.acciones a:hover {
     color: #000;
 }
+
+.acciones-icono{
+
+    text-decoration: none;
+    font: 20px;
+    margin: 6px;
+    display: inline-block;
+} 

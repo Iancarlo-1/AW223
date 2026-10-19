@@ -42,7 +42,7 @@
         <section id="sobre-mi">
             <h2>Sobre mi</h2>
             <div class="sobre-mi-contenido">
-                <img src="https://via.placeholder.com/200" alt="Foto de perfil">
+                <img src="https://via.placeholder.com/200" alt="">
                 <div>
                     <p>Algo sobre mi</p>
                     <p>En esta práctica estoy aprendiendo HTML, CSS, PHP y JS</p>
