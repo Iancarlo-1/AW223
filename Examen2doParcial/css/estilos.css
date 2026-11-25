@@ -1,3 +1,26 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+main {
+    flex: 1; 
+    width: 100%;
+}
+
+h1 {
+   text-align: center;
+    justify-content: center; 
+}
+h2 {
+   text-align: center;
+    justify-content: center; 
+}
+
+
 #titulo-admin{
     padding: 20px;
     justify-content: center;
@@ -19,13 +42,19 @@
     color: white;
 }
 
-
+#registro{
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+}
 
 #texto-P{
     text-align: center;
     font-size: 18px;
     
 }
+
+
 
 .apartado-admin{
     padding: 20px;

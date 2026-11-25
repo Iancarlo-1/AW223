@@ -15,8 +15,7 @@
             <h2> Registar nuevo gasto</h2>
             <section id="registro">
         
-            <h2>Registro</h2>
-            <form id ="formulario-datos" action="guardar_gasto.php" method="post">
+            <form id ="registro" action="guardar_gasto.php" method="post">
                 <div class="campo">
                     <label for="concepto">Concepto</label>
                     <input type="text" id="concepto" name="txtconcepto" placeholder="Escribe el concepto del gasto">
@@ -34,11 +33,10 @@
                     <input type="text" id="pagado" name="txtpagado" placeholder="Monto pagado">
                 </div>
                 
-
-
-                <button type="submit">
+                    <button type="submit">
                     Registrar gasto
                 </button>
+                
 
 
                 <section class = "apartado-admin">
@@ -52,6 +50,8 @@
                     <th>Fecha</th>
                     <th>Pagado</th>
                     <th>Estado</th>
+                        
+                    </th>
                     <th>Acción</th>
 
                 </tr>
@@ -70,12 +70,16 @@
         <td>" . htmlspecialchars($arrRegistro['categoria']) . "</td>
         <td>" . htmlspecialchars($arrRegistro['fecha']) . "</td>
         <td>" . htmlspecialchars($arrRegistro['pagado']) . "</td>
+        
+        
         <td class='acciones'>
             
         </td>
     </tr>";
 }
                 ?>
+
+                <!-- -->
             </tbody>
         </table>
 

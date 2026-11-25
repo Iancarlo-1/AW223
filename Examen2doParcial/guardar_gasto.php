@@ -15,6 +15,7 @@ $stmt->bind_param("ssss", $concepto, $monto, $categoria, $pagado);
 
 if ($stmt->execute()){
     header("Location:index.php?estadophp=exito");
+    
 }else{
     header("Location:index.php?estadophp=error");
 }
